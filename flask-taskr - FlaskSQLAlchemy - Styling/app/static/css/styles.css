@@ -1,6 +1,8 @@
 body {
+ padding: 100px 0px;
+ #padding-top: 100px;
  font-family: sans-serif;
- background: #eee;
+ background: #ffe;
 }
 
 a, h1, h2 {
@@ -26,6 +28,15 @@ h2 {
  border: 5px solid #ccc;
  padding: 0.8em;
  background: white;
+ }
+
+.table {
+ background-color: white;
+ }
+
+thead {
+ background-color: black;
+ color: white
  }
  
 .entries {
