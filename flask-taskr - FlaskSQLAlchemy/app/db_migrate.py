@@ -1,6 +1,4 @@
 # db_migrate.py
-
-
 from views import db
 from datetime import datetime
 
