@@ -10,11 +10,14 @@ from app.tasks.forms import AddTask
 
 
 mod = Blueprint('tasks', __name__, url_prefix='/tasks', template_folder='templates', static_folder='static')
+
+
 	
 @mod.route('/tasks',methods=['GET','POST'])
 #@login_required
 def tasks():
 #use SQLAlchemy wrapper
+	
 	
 	open_tasks=db.session.query(FTasks).filter_by(status='1').order_by(FTasks.due_date.asc())
 	closed_tasks=db.session.query(FTasks).filter_by(status='0').order_by(FTasks.due_date.asc())

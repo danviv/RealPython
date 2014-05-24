@@ -1,0 +1,12 @@
+[2014-05-24 17:24:48] START
+[2014-05-24 17:30:55] EDIT seconds2minutes/controllers/default.py: -46
+[2014-05-24 17:31:44] EDIT seconds2minutes/views/default/index.html: -27
+[2014-05-24 17:32:20] CREATE default/convert.html: 0
+[2014-05-24 17:33:11] EDIT seconds2minutes/views/default/convert.html: 3
+[2014-05-24 17:35:20] EDIT seconds2minutes/views/default/index.html: 2
+[2014-05-24 17:38:27] EDIT seconds2minutes/views/default/index.html: 5
+[2014-05-24 17:39:55] EDIT seconds2minutes/controllers/default.py: -1
+[2014-05-24 17:41:02] EDIT seconds2minutes/controllers/default.py: 0
+[2014-05-24 17:41:53] EDIT seconds2minutes/views/default/index.html: -7
+[2014-05-24 17:44:59] EDIT seconds2minutes/controllers/default.py: 1
+[2014-05-24 17:45:27] EDIT seconds2minutes/controllers/default.py: 0

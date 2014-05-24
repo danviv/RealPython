@@ -23,6 +23,10 @@ def logout():
 @mod.route('/',methods=['GET','POST'])
 def login():
 	error=None
+	# from pprint import pprint
+	# pprint(request.form)
+    # # If you need headers just comment out next line. 
+	# pprint(request.headers)
 	if request.method=='POST':
 		u = User.query.filter_by(name=request.form['name'],password=request.form['password']).first()
 		if u is None:
@@ -36,6 +40,11 @@ def login():
 			return redirect(url_for('tasks.tasks'))
 	#else:
 		#
+
+	#from pprint import pprint
+	pprint(request.form)
+    # If you need headers just comment out next line. 
+	pprint(request.headers)
 	return render_template('users/login.html',form = LoginForm(request.form),error=error)
 
 
