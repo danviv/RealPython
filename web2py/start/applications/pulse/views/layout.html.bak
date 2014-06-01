@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>check your pulse</title>
+ <meta charset="utf-8" />
+ <style type="text/css">
+ body {font-family: Arial, Helvetica, sans-serif; font-size:x-large;}
+ </style>
+ {{
+ middle_columns = {0:'span12',1:'span9',2:'span6'}
+ }}
+ {{block head}}{{end}}
+ </head>
+ <body>
+ <div class="{{=middle_columns}}">
+ {{block center}}
+ {{include}}
+ {{end}}
+ </div>
+ </body>
+ </html>

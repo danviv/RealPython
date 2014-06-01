@@ -1,0 +1,9 @@
+{{extend 'layout.html'}}
+<h1>check your pulse</h1>
+ <form>
+ <input type="text" id="sentiment" name ="sentiment">
+ <input type="button" value="submit"
+    onclick="ajax('{{=URL('pulse')}}',['sentiment'],'target')">
+ </form>
+ <br>
+ <div id="target"></div>
