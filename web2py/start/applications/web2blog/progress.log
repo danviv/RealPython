@@ -1,0 +1,7 @@
+[2014-06-08 16:22:48] START
+[2014-06-08 16:25:38] EDIT web2blog/models/db.py: 3
+[2014-06-08 16:32:19] EDIT web2blog/controllers/default.py: 1
+[2014-06-08 16:35:58] EDIT web2blog/views/default/index.html: -20
+[2014-06-08 16:37:35] EDIT web2blog/views/default/index.html: 0
+[2014-06-08 16:37:51] EDIT web2blog/views/default/index.html: -1
+[2014-06-08 16:38:54] EDIT web2blog/controllers/default.py: 1
